@@ -232,13 +232,30 @@ call s:h("jsFuncArgRest",       { "fg": s:purple, "format": "italic" })
 call s:h("jsFuncArgs",          { "fg": s:orange, "format": "italic" })
 call s:h("jsStorageClass",      { "fg": s:aqua })
 call s:h("jsDocTags",           { "fg": s:aqua,   "format": "italic" })
-                                 
+
+" Python
+call s:h("pythonStatement",     { "fg": s:aqua })
+call s:h("PythonImport",        { "fg": s:pink })
+call s:h("PythonFunction",      { "fg": s:green })
+call s:h("pythonConditional",   { "fg": s:pink })
+call s:h("pythonRepeat",        { "fg": s:pink })
+call s:h("pythonException",     { "fg": s:pink })
+call s:h("pythonOperator",      { "fg": s:pink })
+
+call s:h("pythonComment",       { "fg": s:warmgrey })
+
+call s:h("pythonBoolean",       { "fg": s:purple })
+call s:h("pythonNone",          { "fg": s:purple })
+call s:h("PythonBuiltinFunc",   { "fg": s:aqua })
+call s:h("pythonClassVar",      { "fg": s:orange })
+call s:h("pythonRun",           { "fg": s:warmgrey }) "Shebang
+                
 " Html
 call s:h("htmlTag",             { "fg": s:white })
 call s:h("htmlEndTag",          { "fg": s:white })
 call s:h("htmlTagName",         { "fg": s:pink })
 call s:h("htmlArg",             { "fg": s:green })
-call s:h("htmlSpecialChar",     { "fg": s:purple })
+call s:h("htmlSpecialChar",     { "fg": s:pink })
 
 " Xml
 call s:h("xmlTag",              { "fg": s:pink })
